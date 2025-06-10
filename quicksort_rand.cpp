@@ -31,11 +31,3 @@ void quickSort(std::vector<T>&arr, int s, int e)
         quickSort(arr, index + 1, e);
     }
 }
-int main() {
-    std::vector<int> data = {10, 80, 30, 90, 40, 50, 70};
-    quickSort(data, 0, data.size()-1);
-
-    for (int num : data)
-        std::cout << num << " ";
-    return 0;
-}

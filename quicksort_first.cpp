@@ -32,12 +32,3 @@ void quickSort(std::vector<T>& arr, int s, int e)
     }
 }
 
-int main()
-{
-    std::vector<int> data = {40, 80, 30, 90, 10, 50, 70};
-    quickSort(data, 0, data.size() - 1);
-
-    for (int num : data)
-        std::cout << num << " ";
-    return 0;
-}
